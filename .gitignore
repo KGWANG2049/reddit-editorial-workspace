@@ -1,0 +1,16 @@
+.DS_Store
+backend/.env
+backend/.venv/
+backend/.venv-local/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/editorial_workbench.db
+backend/document_workbench.db
+backend/*.egg-info/
+backend/app/__pycache__/
+backend/app/services/__pycache__/
+backend/tests/__pycache__/
+web/.env.local
+web/.next/
+web/node_modules/
+.runtime/

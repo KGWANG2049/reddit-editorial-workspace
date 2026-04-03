@@ -1,0 +1,42 @@
+0 verbose cli /Users/wkg/.nvm/versions/node/v25.2.1/bin/node /Users/wkg/.nvm/versions/node/v25.2.1/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v25.2.1
+3 silly config load:file:/Users/wkg/.nvm/versions/node/v25.2.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/wkg/weasel-thief/.npmrc
+5 silly config load:file:/Users/wkg/.nvm/versions/node/v25.2.1/etc/npmrc
+6 verbose title npm exec playwright-cli --help
+7 verbose argv "exec" "--yes" "--package" "@playwright/mcp" "--" "playwright-cli" "--help"
+8 verbose logfile logs-max:10 dir:/Users/wkg/weasel-thief/.npm/_logs/2026-03-31T09_27_30_671Z-
+9 verbose logfile /Users/wkg/weasel-thief/.npm/_logs/2026-03-31T09_27_30_671Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+12 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ENOTFOUND
+13 http fetch GET https://registry.npmjs.org/@playwright%2fmcp attempt 1 failed with ENOTFOUND
+14 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with ENOTFOUND
+15 http fetch GET https://registry.npmjs.org/@playwright%2fmcp attempt 2 failed with ENOTFOUND
+16 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with ENOTFOUND
+17 http fetch GET https://registry.npmjs.org/@playwright%2fmcp attempt 3 failed with ENOTFOUND
+18 verbose type system
+19 verbose stack FetchError: request to https://registry.npmjs.org/@playwright%2fmcp failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+19 verbose stack     at ClientRequest.<anonymous> (/Users/wkg/.nvm/versions/node/v25.2.1/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+19 verbose stack     at ClientRequest.emit (node:events:508:28)
+19 verbose stack     at emitErrorEvent (node:_http_client:108:11)
+19 verbose stack     at _destroy (node:_http_client:962:9)
+19 verbose stack     at onSocketNT (node:_http_client:982:5)
+19 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+20 error code ENOTFOUND
+21 error syscall getaddrinfo
+22 error errno ENOTFOUND
+23 error network request to https://registry.npmjs.org/@playwright%2fmcp failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+24 error network This is a problem related to network connectivity.
+24 error network In most cases you are behind a proxy or have bad network settings.
+24 error network
+24 error network If you are behind a proxy, please make sure that the
+24 error network 'proxy' config is set properly.  See: 'npm help config'
+25 verbose cwd /Users/wkg/weasel-thief
+26 verbose os Darwin 25.4.0
+27 verbose node v25.2.1
+28 verbose npm  v11.6.2
+29 verbose exit 1
+30 verbose code 1
+31 error A complete log of this run can be found in: /Users/wkg/weasel-thief/.npm/_logs/2026-03-31T09_27_30_671Z-debug-0.log
